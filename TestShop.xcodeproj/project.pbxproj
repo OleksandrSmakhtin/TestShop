@@ -18,6 +18,7 @@
 		4405AC0C28F0E876009C15EA /* DeselectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0B28F0E876009C15EA /* DeselectedButton.swift */; };
 		4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */; };
 		4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0F28F0FFA8009C15EA /* CircleView.swift */; };
+		4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC1228F10D9D009C15EA /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4405AC0B28F0E876009C15EA /* DeselectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeselectedButton.swift; sourceTree = "<group>"; };
 		4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholderTextField.swift; sourceTree = "<group>"; };
 		4405AC0F28F0FFA8009C15EA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4405AC1228F10D9D009C15EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				4405AC0828F0E67F009C15EA /* View */,
+				4405AC1128F10D70009C15EA /* Controller */,
 				4405ABF128F0D707009C15EA /* AppDelegate.swift */,
 				4405ABF328F0D707009C15EA /* SceneDelegate.swift */,
-				4405ABF528F0D707009C15EA /* SingInVC.swift */,
 				4405ABF728F0D707009C15EA /* Main.storyboard */,
 				4405ABFD28F0D708009C15EA /* Assets.xcassets */,
 				4405ABFF28F0D708009C15EA /* LaunchScreen.storyboard */,
@@ -88,6 +90,15 @@
 				4405AC0F28F0FFA8009C15EA /* CircleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4405AC1128F10D70009C15EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4405ABF528F0D707009C15EA /* SingInVC.swift */,
+				4405AC1228F10D9D009C15EA /* SignUpVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */,
+				4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */,
 				4405ABF628F0D707009C15EA /* SingInVC.swift in Sources */,
 				4405AC0C28F0E876009C15EA /* DeselectedButton.swift in Sources */,
 				4405AC0A28F0E6B1009C15EA /* SelectedButton.swift in Sources */,

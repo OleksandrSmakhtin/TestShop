@@ -15,8 +15,10 @@ class CustomPlaceholderTextField: UITextField {
         layer.cornerRadius = 15
         if accessibilityLabel == "Login" {
             attributedPlaceholder = NSAttributedString(string: "Email or number", attributes: [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.4952918887, green: 0.4656484723, blue: 0.669565618, alpha: 1)])
-        } else {
+        } else if accessibilityLabel == "Password" {
             attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.4952918887, green: 0.4656484723, blue: 0.669565618, alpha: 1)])
+        } else {
+            attributedPlaceholder = NSAttributedString(string: "Confirm password", attributes: [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.4952918887, green: 0.4656484723, blue: 0.669565618, alpha: 1)])
         }
     }
 
