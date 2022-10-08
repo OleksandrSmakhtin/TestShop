@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		4405ABF228F0D707009C15EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405ABF128F0D707009C15EA /* AppDelegate.swift */; };
 		4405ABF428F0D707009C15EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405ABF328F0D707009C15EA /* SceneDelegate.swift */; };
-		4405ABF628F0D707009C15EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405ABF528F0D707009C15EA /* ViewController.swift */; };
+		4405ABF628F0D707009C15EA /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405ABF528F0D707009C15EA /* SingInVC.swift */; };
 		4405ABF928F0D707009C15EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4405ABF728F0D707009C15EA /* Main.storyboard */; };
 		4405ABFC28F0D707009C15EA /* TestShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4405ABFA28F0D707009C15EA /* TestShop.xcdatamodeld */; };
 		4405ABFE28F0D708009C15EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4405ABFD28F0D708009C15EA /* Assets.xcassets */; };
 		4405AC0128F0D708009C15EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4405ABFF28F0D708009C15EA /* LaunchScreen.storyboard */; };
+		4405AC0A28F0E6B1009C15EA /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0928F0E6B1009C15EA /* SelectedButton.swift */; };
+		4405AC0C28F0E876009C15EA /* DeselectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0B28F0E876009C15EA /* DeselectedButton.swift */; };
+		4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */; };
+		4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0F28F0FFA8009C15EA /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4405ABEE28F0D707009C15EA /* TestShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4405ABF128F0D707009C15EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4405ABF328F0D707009C15EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4405ABF528F0D707009C15EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4405ABF528F0D707009C15EA /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
 		4405ABF828F0D707009C15EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4405ABFB28F0D707009C15EA /* TestShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestShop.xcdatamodel; sourceTree = "<group>"; };
 		4405ABFD28F0D708009C15EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4405AC0028F0D708009C15EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4405AC0228F0D708009C15EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4405AC0928F0E6B1009C15EA /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		4405AC0B28F0E876009C15EA /* DeselectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeselectedButton.swift; sourceTree = "<group>"; };
+		4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholderTextField.swift; sourceTree = "<group>"; };
+		4405AC0F28F0FFA8009C15EA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,10 @@
 		4405ABF028F0D707009C15EA /* TestShop */ = {
 			isa = PBXGroup;
 			children = (
+				4405AC0828F0E67F009C15EA /* View */,
 				4405ABF128F0D707009C15EA /* AppDelegate.swift */,
 				4405ABF328F0D707009C15EA /* SceneDelegate.swift */,
-				4405ABF528F0D707009C15EA /* ViewController.swift */,
+				4405ABF528F0D707009C15EA /* SingInVC.swift */,
 				4405ABF728F0D707009C15EA /* Main.storyboard */,
 				4405ABFD28F0D708009C15EA /* Assets.xcassets */,
 				4405ABFF28F0D708009C15EA /* LaunchScreen.storyboard */,
@@ -68,6 +77,17 @@
 				4405ABFA28F0D707009C15EA /* TestShop.xcdatamodeld */,
 			);
 			path = TestShop;
+			sourceTree = "<group>";
+		};
+		4405AC0828F0E67F009C15EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4405AC0928F0E6B1009C15EA /* SelectedButton.swift */,
+				4405AC0B28F0E876009C15EA /* DeselectedButton.swift */,
+				4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */,
+				4405AC0F28F0FFA8009C15EA /* CircleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4405ABF628F0D707009C15EA /* ViewController.swift in Sources */,
+				4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */,
+				4405ABF628F0D707009C15EA /* SingInVC.swift in Sources */,
+				4405AC0C28F0E876009C15EA /* DeselectedButton.swift in Sources */,
+				4405AC0A28F0E6B1009C15EA /* SelectedButton.swift in Sources */,
 				4405ABF228F0D707009C15EA /* AppDelegate.swift in Sources */,
 				4405ABF428F0D707009C15EA /* SceneDelegate.swift in Sources */,
 				4405ABFC28F0D707009C15EA /* TestShop.xcdatamodeld in Sources */,
+				4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
