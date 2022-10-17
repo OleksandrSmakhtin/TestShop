@@ -19,6 +19,13 @@
 		4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */; };
 		4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0F28F0FFA8009C15EA /* CircleView.swift */; };
 		4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC1228F10D9D009C15EA /* SignUpVC.swift */; };
+		44560FBC28FC5D2E0046977F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FBB28FC5D2E0046977F /* Location.swift */; };
+		44560FBF28FC5DDA0046977F /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FBE28FC5DDA0046977F /* LocationsData.swift */; };
+		44560FC128FC68590046977F /* ExpandedLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FC028FC68590046977F /* ExpandedLocationCell.swift */; };
+		44560FC328FC79180046977F /* ClosedLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FC228FC79180046977F /* ClosedLocationCell.swift */; };
+		44E289A428F331FA00AF70B2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E289A328F331FA00AF70B2 /* TabBarController.swift */; };
+		44E289A628F3636000AF70B2 /* RoundCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E289A528F3636000AF70B2 /* RoundCornersView.swift */; };
+		44E289A828F3645800AF70B2 /* LocationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E289A728F3645800AF70B2 /* LocationsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,13 @@
 		4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholderTextField.swift; sourceTree = "<group>"; };
 		4405AC0F28F0FFA8009C15EA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		4405AC1228F10D9D009C15EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		44560FBB28FC5D2E0046977F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		44560FBE28FC5DDA0046977F /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
+		44560FC028FC68590046977F /* ExpandedLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedLocationCell.swift; sourceTree = "<group>"; };
+		44560FC228FC79180046977F /* ClosedLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedLocationCell.swift; sourceTree = "<group>"; };
+		44E289A328F331FA00AF70B2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		44E289A528F3636000AF70B2 /* RoundCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornersView.swift; sourceTree = "<group>"; };
+		44E289A728F3645800AF70B2 /* LocationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,8 @@
 		4405ABF028F0D707009C15EA /* TestShop */ = {
 			isa = PBXGroup;
 			children = (
+				44560FBD28FC5DCC0046977F /* Data */,
+				44560FBA28FC5D1F0046977F /* Model */,
 				4405AC0828F0E67F009C15EA /* View */,
 				4405AC1128F10D70009C15EA /* Controller */,
 				4405ABF128F0D707009C15EA /* AppDelegate.swift */,
@@ -88,6 +104,9 @@
 				4405AC0B28F0E876009C15EA /* DeselectedButton.swift */,
 				4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */,
 				4405AC0F28F0FFA8009C15EA /* CircleView.swift */,
+				44E289A528F3636000AF70B2 /* RoundCornersView.swift */,
+				44560FC028FC68590046977F /* ExpandedLocationCell.swift */,
+				44560FC228FC79180046977F /* ClosedLocationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,8 +116,26 @@
 			children = (
 				4405ABF528F0D707009C15EA /* SingInVC.swift */,
 				4405AC1228F10D9D009C15EA /* SignUpVC.swift */,
+				44E289A328F331FA00AF70B2 /* TabBarController.swift */,
+				44E289A728F3645800AF70B2 /* LocationsVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		44560FBA28FC5D1F0046977F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44560FBB28FC5D2E0046977F /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44560FBD28FC5DCC0046977F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				44560FBE28FC5DDA0046977F /* LocationsData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,14 +209,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44560FBF28FC5DDA0046977F /* LocationsData.swift in Sources */,
 				4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */,
+				44E289A828F3645800AF70B2 /* LocationsVC.swift in Sources */,
 				4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */,
+				44E289A428F331FA00AF70B2 /* TabBarController.swift in Sources */,
 				4405ABF628F0D707009C15EA /* SingInVC.swift in Sources */,
+				44560FC328FC79180046977F /* ClosedLocationCell.swift in Sources */,
+				44560FC128FC68590046977F /* ExpandedLocationCell.swift in Sources */,
 				4405AC0C28F0E876009C15EA /* DeselectedButton.swift in Sources */,
+				44560FBC28FC5D2E0046977F /* Location.swift in Sources */,
 				4405AC0A28F0E6B1009C15EA /* SelectedButton.swift in Sources */,
 				4405ABF228F0D707009C15EA /* AppDelegate.swift in Sources */,
 				4405ABF428F0D707009C15EA /* SceneDelegate.swift in Sources */,
 				4405ABFC28F0D707009C15EA /* TestShop.xcdatamodeld in Sources */,
+				44E289A628F3636000AF70B2 /* RoundCornersView.swift in Sources */,
 				4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
