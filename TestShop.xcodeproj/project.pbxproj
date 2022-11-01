@@ -19,6 +19,10 @@
 		4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */; };
 		4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC0F28F0FFA8009C15EA /* CircleView.swift */; };
 		4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405AC1228F10D9D009C15EA /* SignUpVC.swift */; };
+		440B71F5291186DF005E6DEE /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B71F4291186DF005E6DEE /* AvatarButton.swift */; };
+		440B71F729118ACF005E6DEE /* CatalogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B71F629118ACF005E6DEE /* CatalogVC.swift */; };
+		440B71F929118B2C005E6DEE /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B71F829118B2C005E6DEE /* CatalogCell.swift */; };
+		440B71FB29118E85005E6DEE /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B71FA29118E85005E6DEE /* CategoryData.swift */; };
 		44560FBC28FC5D2E0046977F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FBB28FC5D2E0046977F /* Location.swift */; };
 		44560FBF28FC5DDA0046977F /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FBE28FC5DDA0046977F /* LocationsData.swift */; };
 		44560FC128FC68590046977F /* ExpandedLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44560FC028FC68590046977F /* ExpandedLocationCell.swift */; };
@@ -43,6 +47,10 @@
 		4405AC0D28F0F22D009C15EA /* CustomPlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholderTextField.swift; sourceTree = "<group>"; };
 		4405AC0F28F0FFA8009C15EA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		4405AC1228F10D9D009C15EA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		440B71F4291186DF005E6DEE /* AvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
+		440B71F629118ACF005E6DEE /* CatalogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogVC.swift; sourceTree = "<group>"; };
+		440B71F829118B2C005E6DEE /* CatalogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		440B71FA29118E85005E6DEE /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
 		44560FBB28FC5D2E0046977F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		44560FBE28FC5DDA0046977F /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
 		44560FC028FC68590046977F /* ExpandedLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedLocationCell.swift; sourceTree = "<group>"; };
@@ -107,6 +115,8 @@
 				44E289A528F3636000AF70B2 /* RoundCornersView.swift */,
 				44560FC028FC68590046977F /* ExpandedLocationCell.swift */,
 				44560FC228FC79180046977F /* ClosedLocationCell.swift */,
+				440B71F4291186DF005E6DEE /* AvatarButton.swift */,
+				440B71F829118B2C005E6DEE /* CatalogCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +127,7 @@
 				4405ABF528F0D707009C15EA /* SingInVC.swift */,
 				4405AC1228F10D9D009C15EA /* SignUpVC.swift */,
 				44E289A328F331FA00AF70B2 /* TabBarController.swift */,
+				440B71F629118ACF005E6DEE /* CatalogVC.swift */,
 				44E289A728F3645800AF70B2 /* LocationsVC.swift */,
 			);
 			path = Controller;
@@ -134,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				44560FBE28FC5DDA0046977F /* LocationsData.swift */,
+				440B71FA29118E85005E6DEE /* CategoryData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -210,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44560FBF28FC5DDA0046977F /* LocationsData.swift in Sources */,
+				440B71FB29118E85005E6DEE /* CategoryData.swift in Sources */,
 				4405AC1028F0FFA8009C15EA /* CircleView.swift in Sources */,
 				44E289A828F3645800AF70B2 /* LocationsVC.swift in Sources */,
 				4405AC1328F10D9D009C15EA /* SignUpVC.swift in Sources */,
@@ -222,8 +235,11 @@
 				4405AC0A28F0E6B1009C15EA /* SelectedButton.swift in Sources */,
 				4405ABF228F0D707009C15EA /* AppDelegate.swift in Sources */,
 				4405ABF428F0D707009C15EA /* SceneDelegate.swift in Sources */,
+				440B71F929118B2C005E6DEE /* CatalogCell.swift in Sources */,
 				4405ABFC28F0D707009C15EA /* TestShop.xcdatamodeld in Sources */,
 				44E289A628F3636000AF70B2 /* RoundCornersView.swift in Sources */,
+				440B71F5291186DF005E6DEE /* AvatarButton.swift in Sources */,
+				440B71F729118ACF005E6DEE /* CatalogVC.swift in Sources */,
 				4405AC0E28F0F22D009C15EA /* CustomPlaceholderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,6 @@ class RoundCornersView: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
         clipsToBounds = true
-        layer.cornerRadius = 15
-    }
+        layer.cornerRadius = 10    }
 
 }
